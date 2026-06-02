@@ -2,17 +2,17 @@
 
 Use one image generation call per final image.
 
-## Refined Style Lock
+## Friendly Style Lock
 
 ```text
-Refined Chinese handdrawn technical article illustration.
+Friendly Chinese handdrawn technical article illustration.
 Very light near-white warm paper around #FBFAF5, no full-page border, no frame.
-Fine dark graphite ink and pencil linework, slightly irregular but controlled, delicate hatching.
+Rounded, friendly dark graphite ink and pencil linework, slightly playful but controlled, soft hatching.
 Article-style technical explainer composition: one clear visual idea plus purposeful annotations, callouts, micro-panels, or comparison zones.
-Restrained pastel marker accents: pale blue, sage green, pale peach, soft lavender.
-Clear Chinese hard-pen labels, short notes, and normal small annotations.
-Calm premium technical article feeling, richer than a single doodle, lighter than a standalone information poster, not a dense whiteboard or generic business infographic.
-Avoid shadows, gradients, neon, stickers, SaaS cards, editorial card layout, large cartoon characters, watermark, fake English, filler text, invented labels.
+Warm pastel marker accents: pale blue, sage green, pale peach, soft lavender, light yellow when useful.
+Clear Chinese handwritten labels, short notes, and normal small annotations.
+Approachable technical article feeling, slightly cartoon-like, richer than a single doodle, lighter than a standalone information poster, not a dense whiteboard or generic business infographic.
+Avoid shadows, gradients, neon, sticker decorations, SaaS cards, editorial card layout, large mascot characters, watermark, fake English, filler text, invented labels.
 ```
 
 ## 16:9 Body Illustration Prompt
@@ -21,7 +21,7 @@ Avoid shadows, gradients, neon, stickers, SaaS cards, editorial card layout, lar
 Generate one standalone 16:9 Chinese technical article body illustration.
 Preferred final size: 1920x1080 if supported.
 
-Visual mode: Refined Handdrawn Tech.
+Visual mode: Friendly Handdrawn Tech.
 Core idea: <one sentence>
 Main point: <what the reader should understand>
 Visual approach: <scene | annotated diagram | workflow | comparison | evidence view | layered model | route map | metaphor | summary>
@@ -57,13 +57,13 @@ Do not add meaningless filler labels, fake English, URLs, watermark, or decorati
 Generate one 21:9 Chinese technical article/WeChat wide cover illustration.
 Preferred final size: 2520x1080 for article cover or 2100x900 for WeChat if supported.
 
-Visual mode: Refined Handdrawn Tech.
+Visual mode: Friendly Handdrawn Tech.
 Suggested cover text: <main cover copy>
 Suggested secondary text: <optional short line or omit>
 Core idea: <one sentence>
 
 Style lock:
-<paste Refined Style Lock>
+<paste Friendly Style Lock>
 
 Composition:
 One memorable handdrawn technical visual hook occupying about 50-55% of the width.
@@ -106,7 +106,7 @@ Suggested visible text:
 Generate one 3:4 Xiaohongshu/Rednote technical cover illustration.
 Preferred final size: 1080x1440 if supported.
 
-Visual mode: Refined Handdrawn Tech.
+Visual mode: Friendly Handdrawn Tech.
 Suggested cover text: <sharp Chinese hook>
 Core idea: <one sentence>
 

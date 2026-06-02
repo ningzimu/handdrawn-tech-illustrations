@@ -18,7 +18,6 @@ Load only what the task needs:
 - `references/prompt-patterns.md`: read before image generation.
 - `references/platform-specs.md`: read when covers or fixed ratios are requested.
 - `references/production-workflow.md`: read before saving outputs, resizing, or contact sheets.
-- `references/qa-checklist.md`: read before final delivery.
 
 Use `assets/theme-tokens.json` as the compact palette/style token file when prompt writing needs exact colors.
 
@@ -40,15 +39,14 @@ Do not create editable document packages, reusable layout templates, or generate
    - If the user asks only for planning, return a shot list and stop.
 
 2. **Generate the image**
-   - Use **Refined Handdrawn Tech**.
+   - Use **Friendly Handdrawn Tech**.
    - Read `style-dna.md` and `prompt-patterns.md` before generation.
    - Use one image generation call per final image. Put the ratio, main point, visual approach, composition, and Chinese visible text directly in the prompt.
 
-3. **Save and check**
+3. **Deliver**
    - Use the user-requested output path when one is provided; otherwise keep the generated image at the model-provided path and report it clearly.
    - Copy or organize files only when useful for delivery.
    - Resize or create a contact sheet only when useful for delivery.
-   - Check dimensions, readable Chinese text, style match, source accuracy, and platform-safe margins; regenerate if the image fails.
 
 ## Defaults
 
@@ -72,4 +70,4 @@ Do not create editable document packages, reusable layout templates, or generate
 
 ## Final Response
 
-Report image paths, image count, ratios/dimensions, visual mode used, key assumptions, verification performed, and remaining risks. Show main images inline with absolute paths when useful.
+Report image paths, image count, and ratios/dimensions when available. Show main images inline with absolute paths when useful.

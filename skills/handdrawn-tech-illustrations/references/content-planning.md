@@ -19,16 +19,11 @@ Use these when the image idea is still vague. Do not force every image into this
 Useful questions:
 
 1. What does this image help the reader understand?
-2. Would it work better as a scene, annotated diagram, comparison, flow, evidence view, or metaphor?
-3. What objects, UI fragments, notes, or labels would make the point concrete?
+2. Should it show evidence, a relationship, a state, a contrast, a scene, or a compact summary?
+3. What visible elements are naturally present in the source material?
 4. What should stay out so the image does not become a crowded summary?
 
-Examples:
-
-- "Scattered inputs need structure" -> loose cards arranged into labeled trays.
-- "A shared interface reduces repeated wiring" -> cables converge into one controlled connector rail.
-- "Reliability depends on checks and recovery" -> a workbench with checklist, logbook, and reset handle.
-- "Complex work improves through iteration" -> paper cards moving through attempt, observation, and adjustment.
+Avoid starting from a favorite prop or metaphor. Start from the content and let the concrete elements emerge from the article, screenshot, product, or note.
 
 ## Information Richness
 
@@ -53,15 +48,15 @@ Keep it lighter than a standalone information poster: no long paragraphs, no rig
 Example:
 
 ```text
-01 / cover / 21:9 / refined / 截图变结构 / 视觉稿需要被拆成可编辑语义 / 小型拆包机把截图拆成层级抽屉 / 截图变结构、语义层、可编辑
-02 / paragraph after "为什么难" / 16:9 / refined / 结构线 / 像素不是结构 / 像素池旁的结构线标注图 / 像素、结构、误判
+01 / cover / 21:9 / refined / 截图变结构 / 视觉稿需要被拆成可编辑语义 / 截图与结构说明并置 / 截图变结构、语义层、可编辑
+02 / paragraph after "为什么难" / 16:9 / refined / 结构线 / 像素不是结构 / 截图局部、结构线和误判标注 / 像素、结构、误判
 ```
 
 ## What Deserves An Illustration
 
 Prioritize:
 
-- Core mechanism.
+- Core explanation.
 - Before/after state.
 - Workflow handoff.
 - A confusing boundary.

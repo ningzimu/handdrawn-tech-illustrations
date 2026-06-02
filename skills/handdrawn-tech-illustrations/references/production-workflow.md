@@ -36,7 +36,7 @@ For 2+ images, make a contact sheet when feasible:
 
 - Preserve aspect ratios.
 - Add small filename labels outside or below the image tiles when needed.
-- Use it only for review; do not treat it as a final illustration.
+- Use it only as an optional preview; do not treat it as a final illustration.
 
 ## Source Assets
 
