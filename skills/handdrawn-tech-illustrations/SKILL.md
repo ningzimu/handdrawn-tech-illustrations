@@ -5,7 +5,7 @@ description: Use when the user asks for Chinese handdrawn technical article illu
 
 # Handdrawn Tech Illustrations
 
-Create final raster illustrations for Chinese technical articles and social covers: article body illustrations, concept visuals, WeChat covers, and Xiaohongshu/Rednote covers.
+Create final illustrations for Chinese technical articles and social covers: article body illustrations, concept visuals, WeChat covers, and Xiaohongshu/Rednote covers.
 
 Default production uses the built-in image generation model. Crop, resize, and contact-sheet creation are only delivery helpers after the final image is generated.
 

@@ -8,7 +8,7 @@
 
 ## 这个 Skill 做什么
 
-- 把中文技术内容生成清晰的手绘风格栅格图。
+- 把中文技术内容生成清晰的手绘技术配图。
 - 支持正文配图、文章封面、微信公众号封面、小红书/Rednote 封面。
 - 使用 Codex 内置生图模型直接生成最终图片。
 - 不强制固定输出目录：用户指定路径就放到指定位置，否则保留模型返回路径并明确报告。
@@ -26,13 +26,24 @@
 
 同一种画面气质下，可以根据内容选择不同表达方式：
 
-| 注释图 | 对比图 |
-| --- | --- |
-| ![注释图示例](assets/readme-preview-annotated.png) | ![对比图示例](assets/readme-preview-comparison.png) |
-
-| 证据图 / 截图解释 | 风格元素 |
-| --- | --- |
-| ![证据图示例](assets/readme-preview-evidence.png) | ![风格元素示例](assets/readme-style-preview.png) |
+<table>
+  <tr>
+    <td width="50%" align="center"><strong>注释图</strong></td>
+    <td width="50%" align="center"><strong>对比图</strong></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="assets/readme-preview-annotated.png" alt="注释图示例" width="100%"></td>
+    <td width="50%"><img src="assets/readme-preview-comparison.png" alt="对比图示例" width="100%"></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><strong>证据图 / 截图解释</strong></td>
+    <td width="50%" align="center"><strong>风格元素</strong></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="assets/readme-preview-evidence.png" alt="证据图示例" width="100%"></td>
+    <td width="50%"><img src="assets/readme-style-preview.png" alt="风格元素示例" width="100%"></td>
+  </tr>
+</table>
 
 它不强制每张图都变成流程图或隐喻图。更重要的是让图服务内容：该保留截图证据时保留截图，该讲结构时画结构，该做封面钩子时就减少细节。
 
@@ -74,6 +85,10 @@
 使用 handdrawn-tech-illustrations，为这篇文章生成 shot list，暂时不要生图。
 ```
 
+## 开始使用
+
+![开始使用](assets/readme-start.png)
+
 ## 仓库结构
 
 ```text
@@ -85,6 +100,7 @@
 │   ├── readme-preview-annotated.png
 │   ├── readme-preview-comparison.png
 │   ├── readme-preview-evidence.png
+│   ├── readme-start.png
 │   └── readme-style-preview.png
 ├── skills/
 │   └── handdrawn-tech-illustrations/
@@ -100,10 +116,3 @@
 │           └── style-dna.md
 └── README.md
 ```
-
-## 说明
-
-- 仓库根目录放 GitHub 相关文件和展示资源。
-- skill 源文件位于 `skills/handdrawn-tech-illustrations/`。
-- README 图片位于 `assets/`，用于展示这个 skill 的用途和风格。
-- 这个 skill 生成栅格图片，不生成可编辑文档包、版式模板或卡片系统。
