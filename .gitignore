@@ -1,0 +1,29 @@
+.DS_Store
+
+# Local environment and editor state
+.env
+.env.*
+.vscode/
+.idea/
+
+# Python/cache artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node/cache artifacts
+node_modules/
+.npm/
+.pnpm-store/
+
+# Local generated image deliveries
+codex-handdrawn-illustrations-*/
+generated_images/
+output/
+tmp/
+temp/
+
+# Codex/local runtime state
+.codex/

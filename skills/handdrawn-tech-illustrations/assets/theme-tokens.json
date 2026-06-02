@@ -1,0 +1,15 @@
+{
+  "background": "#FBFAF5",
+  "paper_alt": "#FCFBF7",
+  "ink": "#2F3437",
+  "ink_soft": "#596166",
+  "line": "#2F3437",
+  "rule": "#D8D5CC",
+  "blue": "#BFD7F1",
+  "sage": "#CFE2D1",
+  "peach": "#F4C7B8",
+  "lavender": "#D8C7EF",
+  "accent": "#E46B4F",
+  "safe_margin_xhs": "88px",
+  "safe_margin_wechat": "92px"
+}

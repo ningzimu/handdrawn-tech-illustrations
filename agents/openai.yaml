@@ -1,0 +1,4 @@
+interface:
+  display_name: "手绘技术配图"
+  short_description: "生成手绘风格技术文章正文配图和封面"
+  default_prompt: "Use $handdrawn-tech-illustrations to create a WeChat cover and body illustrations for this Chinese technical article."
