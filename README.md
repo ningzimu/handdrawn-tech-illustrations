@@ -116,3 +116,7 @@
 │           └── style-dna.md
 └── README.md
 ```
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=ningzimu/handdrawn-tech-illustrations&type=Date)](https://www.star-history.com/#ningzimu/handdrawn-tech-illustrations&Date)
